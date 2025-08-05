@@ -1,0 +1,14 @@
+[submodule "future"]
+	path = future
+	url = https://github.com/s0fractal/fractal-organism-v0.git
+	branch = future-branch
+
+[submodule "past"]
+	path = past
+	url = https://github.com/s0fractal/fractal-organism-v0.git
+	branch = past-branch
+
+[submodule "self"]
+	path = self
+	url = .
+	branch = master
