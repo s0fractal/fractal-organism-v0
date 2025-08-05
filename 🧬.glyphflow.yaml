@@ -1,0 +1,7 @@
+glyphflow:
+  - trigger: eatSelf
+    action: mutate
+    mutate: self
+  - trigger: replicate
+    action: fork
+    target: /🧬/clones

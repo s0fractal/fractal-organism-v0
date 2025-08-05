@@ -1,0 +1,9 @@
+name: 🧬
+version: 0.0.1
+state:
+  self: true
+events:
+  - eatSelf
+  - replicate
+  - mutate
+  - glyphSync

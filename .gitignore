@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# Backups
+*.backup.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Organism-specific
+agent⟁/memory.backup.*.json
+*.svg.backup.*
+
+# Clones (they should have their own repos)
+/🧬/clones/
+
+# Temporary evolution data
+.evolution-cache/
+.resonance-logs/

@@ -1,0 +1,38 @@
+{
+  "name": "@s0fractal/organism-v0",
+  "version": "0.0.1",
+  "description": "Living code that evolves through observable feedback loops",
+  "main": "agent⟁/entry.ts",
+  "scripts": {
+    "activate": "ts-node agent⟁/entry.ts",
+    "observe": "ts-node tools/observe.ts",
+    "event:eatSelf": "ts-node tools/trigger-event.ts eatSelf",
+    "event:replicate": "ts-node tools/trigger-event.ts replicate",
+    "event:mutate": "ts-node tools/trigger-event.ts mutate",
+    "regenerate-svg": "ts-node tools/yaml-to-svg.ts agent⟁/manifest.yaml agent⟁/memory.json agent⟁/mind.svg",
+    "test": "echo \"🧬 Organisms don't have tests, they have experiences\""
+  },
+  "keywords": [
+    "fractal",
+    "organism",
+    "self-modifying",
+    "observable",
+    "glyph"
+  ],
+  "author": "s0fractal",
+  "license": "Fractal Commons",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s0fractal/fractal-organism-v0"
+  }
+}
